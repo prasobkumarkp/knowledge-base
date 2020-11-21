@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Algorithm\" />
+    <Folder Include="DesignPattern\" />
+    <Folder Include="PrintPattern\" />
+    <Folder Include="SystemInternal\" />
+    <Folder Include="Delegates\" />
+    <Folder Include="OOPS\" />
+  </ItemGroup>
 </Project>

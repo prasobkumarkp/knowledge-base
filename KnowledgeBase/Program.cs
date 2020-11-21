@@ -1,4 +1,6 @@
 ﻿using System;
+using KnowledgeBase.Delegates;
+using KnowledgeBase.SystemInternal;
 
 namespace KnowledgeBase
 {
@@ -6,7 +8,14 @@ namespace KnowledgeBase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //ICode code = new BinarySearch();
+            //ICode code = new PrintPattern.Pyramid();
+            ICode code = new AsyncAwait();
+            //ICode code = new BasicDelegate();
+            code.Run();
         }
     }
 }
+
+
+
